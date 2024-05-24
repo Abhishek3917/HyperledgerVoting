@@ -2,13 +2,14 @@
 
 This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes. it is a demo project to store candidates details in blockchain uses hyper ledger fabric samples test-network.
 
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Chaincode Functions](#chaincode-functions)
 - [node js](#app)
-- [Running the Chaincode](#running-the-chaincode)
+- [conclusion](#conclusion)
 
 ## Prerequisites
 
@@ -49,6 +50,8 @@ Before you can deploy this chaincode, you need to have the following prerequisit
     go mod init candidate_chaincode
     go mod tidy
     ```
+2. now run ```sh stat_network.sh``` to start network with initializing blockchain in channel peer
+
 ## app
 
 1. install package
@@ -58,5 +61,9 @@ Before you can deploy this chaincode, you need to have the following prerequisit
 2. run node enroll.js
 3. run all .js file to start 
     ```
-    node file.js
+    node <script>.js
     ```
+
+## conclusion
+1. run ``` . set_path.sh``` in terminals where querryCandidate.js and block_details.sh  is going to run
+2. run ``` sh stop_network.sh``` to stop the network and remove files
