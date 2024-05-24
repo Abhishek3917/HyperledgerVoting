@@ -1,6 +1,6 @@
 # HyperledgerVoting
 
-This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes. it is a demo project to store candidates details in blockchain uses hyper ledger fabric samples test-network.
+This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes. it is a demo project to store candidates details in blockchain uses hyper ledger fabric samples test-network.the installation sepcified for ``` Arch based distro ```
 
 
 ## Table of Contents
@@ -67,3 +67,4 @@ Before you can deploy this chaincode, you need to have the following prerequisit
 ## conclusion
 1. run ``` . set_path.sh``` in terminals where querryCandidate.js and block_details.sh  is going to run
 2. run ``` sh stop_network.sh``` to stop the network and remove files
+3. refer hyper ledger fabric docs for any doubts
