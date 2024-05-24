@@ -1,20 +1,14 @@
 # HyperledgerVoting
 
-This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes.
+This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes. it is a demo project to store candidates details in blockchain uses hyper ledger fabric samples test-network.
 
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Chaincode Functions](#chaincode-functions)
-  - [InitLedger](#initledger)
-  - [QueryCandidateVotes](#querycandidatevotes)
-  - [GetAllCandidates](#getallcandidates)
-  - [AddCandidate](#addcandidate)
-  - [UpdateCandidate](#updatecandidate)
-  - [DeleteCandidate](#deletecandidate)
+- [node js](#app)
 - [Running the Chaincode](#running-the-chaincode)
-- [License](#license)
 
 ## Prerequisites
 
@@ -41,4 +35,28 @@ Before you can deploy this chaincode, you need to have the following prerequisit
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/Abhishek3917/HyperledgerVoting.git
-    
+    ```
+2. move the folder inside the fabric sample folder
+3. adjust the path in file start_network.sh stop_network.sh block_details
+4. make script executable by running
+    ```bash 
+    chmod +x *.sh
+    ```
+## chaincode-functions
+
+1. ```bash
+    cd chaincode
+    go mod init candidate_chaincode
+    go mod tidy
+    ```
+## app
+
+1. install package
+    ```bash
+    npm install
+    ```
+2. run node enroll.js
+3. run all .js file to start 
+    ```
+    node file.js
+    ```
