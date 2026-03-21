@@ -1,6 +1,6 @@
 # HyperledgerVoting
 
-This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes. it is a demo project to store candidates details in blockchain uses hyper ledger fabric samples test-network.the installation sepcified for ``` Arch based distro ```
+This repository contains the chaincode for managing election candidates using Hyperledger Fabric. The chaincode provides functionality to add, update, delete, and query candidates and their votes. it is a demo project to store candidates details in blockchain uses hyper ledger fabric samples test-network.the installation sepcified for ``` Arch based distro ```.
 
 
 ## Table of Contents
