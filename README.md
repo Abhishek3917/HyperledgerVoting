@@ -52,8 +52,7 @@ Before you can deploy this chaincode, you need to have the following prerequisit
     ```
 2. now run ```sh stat_network.sh``` to start network with initializing blockchain in channel peer
 
-## app
-
+## App
 1. install package
     ```bash
     npm install
